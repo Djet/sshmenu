@@ -9,8 +9,6 @@ import logging
 client = Client('http://413c6240283b405e8bb356b7fa94bfed:336e485eed974c45a51808f3e7e638a0@str.blaq.ru/6')
 try:
     logging.basicConfig(format=u'[%(asctime)s] %(levelname)-8s %(message)s', level=logging.DEBUG, filename=u'sshmenu.log')
-    logging.info("Start server: tProxy")
-
     screen = curses.initscr()
     curses.noecho()
     curses.cbreak()
